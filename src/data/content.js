@@ -18,7 +18,7 @@ export const hero = {
   primaryCta: { label: 'See the app', href: '#showcase', icon: 'fa-solid fa-mobile-screen-button' },
   secondaryCta: { label: 'Meet the developer', href: '#developer', icon: 'fa-solid fa-code' },
   // IMAGE TEMPLATE: set this to your Home Dashboard screenshot path, e.g. "/screenshots/home.png"
-  phoneImage: '../gastoo_photos/hero-mockup.png',
+  phoneImage: '/gastoo_photos/hero-mockup.png',
 }
 
 export const features = [
@@ -93,7 +93,7 @@ export const showcaseSlots = [
     caption: 'Home',
     note: 'Budget, categories, savings — all at once',
     
-    image: '../gastoo_photos/home_page.jpg',
+    image: '/gastoo_photos/home_page.jpg',
   },
   {
     id: 'add-expense',
@@ -101,7 +101,7 @@ export const showcaseSlots = [
     label: 'Add Expense',
     caption: 'Add Expense',
     note: 'Log a gasto in three taps',
-    image: '../gastoo_photos/add_expense.jpg', 
+    image: '/gastoo_photos/add_expense.jpg', 
   },
   {
     id: 'analytics',
@@ -109,7 +109,7 @@ export const showcaseSlots = [
     label: 'Analytics',
     caption: 'Analytics',
     note: 'Spending vs budget, heatmap, insights',
-    image: '../gastoo_photos/analytics_page.jpg', // "/screenshots/analytics.png"
+    image: '/gastoo_photos/analytics_page.jpg', // "/screenshots/analytics.png"
   },
   {
     id: 'profile',
@@ -117,7 +117,7 @@ export const showcaseSlots = [
     label: 'Profile',
     caption: 'Profile',
     note: 'Stats, settings, account controls',
-    image: '../gastoo_photos/profile_page.jpg', // "/screenshots/profile.png"
+    image: '/gastoo_photos/profile_page.jpg', // "/screenshots/profile.png"
   },
   {
   id: 'finance-actions',
@@ -125,7 +125,7 @@ export const showcaseSlots = [
   label: 'Finance Hub',
   caption: 'Manage Your Finances',
   note: 'Manage expenses, savings, and your budget',
-  image: '../gastoo_photos/finance-actions.jpg',
+  image: '/gastoo_photos/finance-actions.jpg',
 },
 ]
 
