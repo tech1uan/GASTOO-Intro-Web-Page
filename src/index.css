@@ -277,7 +277,7 @@
     border:1.5px dashed rgba(69,231,238,.4);
     display:flex; align-items:center; justify-content:center; flex-direction:column; gap:8px;
     color:rgba(235,255,253,.45); font-size:12px; margin-bottom:22px;
-    background-size:cover; background-position:center;
+    background-size:cover; background-position: center -6px;
   }
   /* IMAGE TEMPLATE — replace this element's background to drop in a headshot:
      style="background-image:url('juan-miguel-austria.jpg'); background-size:cover; background-position:center; border-style:solid;"
