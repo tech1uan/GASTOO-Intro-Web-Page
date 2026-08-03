@@ -209,7 +209,7 @@ export default function Footer({ links }) {
             </p>
 
             <a
-              href="/app"
+              href="/https://gastoos.onrender.com/"
               className="
                 inline-flex
                 items-center
