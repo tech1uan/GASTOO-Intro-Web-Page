@@ -209,7 +209,7 @@ export default function Footer({ links }) {
             </p>
 
             <a
-              href="/https://gastoos.onrender.com/"
+              href="https://gastoos.onrender.com/"
               className="
                 inline-flex
                 items-center
@@ -229,6 +229,7 @@ export default function Footer({ links }) {
                 hover:bg-[#6BEFF4]
                 hover:shadow-[#45E7EE]/20
               "
+              target="_blank"
             >
               Open Gastoo
 
