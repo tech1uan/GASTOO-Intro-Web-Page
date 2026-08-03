@@ -164,27 +164,28 @@ export const pushNotification = {
 }
 
 export const developer = {
-  name: 'Juan Miguel Austria',
-  role: 'Full Stack Developer',
-
-  avatar: '../gastoo_photos/jm_suit.png',
-  bio: "Juan Miguel Austria is a full stack developer who designed, built, and shipped Gastoo end to end — from the MySQL schema and Express API through to every screen in the app. Gastoo grew out of a simple question: what would a budgeting app look like if it actually understood how Filipinos spend, save, and talk about money?",
-  highlights: [
-    { icon: 'fa-solid fa-layer-group', title: 'End-to-end build', note: 'Database to UI, solo' },
-    { icon: 'fa-solid fa-peso-sign', title: 'PH-first design', note: 'Made for local spending habits' },
-    { icon: 'fa-solid fa-bolt', title: 'Ships fast', note: 'Idea to working feature, quickly' },
-  ],
-  stack: ['Node.js', 'Express.js', 'MySQL', 'Tailwind CSS', 'Vanilla JS', 'REST APIs'],
-  socials: [
-    { icon: 'fa-brands fa-github', label: 'GitHub', href: 'https://github.com/tech1uan' },
-    { icon: 'fa-brands fa-linkedin-in', label: 'LinkedIn', href: 'https://www.linkedin.com/in/juan-miguel-austria-917583375' },
-    { icon: 'fa-solid fa-globe', label: 'Portfolio', href: 'https://jm-austria-web-portfolio.vercel.app/' },
-    { icon: 'fa-solid fa-envelope', label: 'Gmail', href: '' },
-  ],
+  logo: '../gastoo_photos/evotrone_logo.jpg',
 }
 
 export const footerLinks = [
-  { label: 'GitHub', href: 'https://github.com/tech1uan' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/juan-miguel-austria-917583375/' },
-  { label: 'Portfolio', href: 'https://jm-austria-web-portfolio.vercel.app/' },
+  {
+    label: 'Why Gastoo',
+    href: '#why',
+    icon: 'fa-solid fa-circle-question',
+  },
+  {
+    label: 'Take a Look',
+    href: '#showcase',
+    icon: 'fa-solid fa-mobile-screen-button',
+  },
+  {
+    label: 'Notifications',
+    href: '#notifications',
+    icon: 'fa-solid fa-bell',
+  },
+  {
+    label: 'Meet Evotrone',
+    href: '#developer',
+    icon: 'fa-solid fa-building',
+  },
 ]

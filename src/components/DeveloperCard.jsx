@@ -1,69 +1,58 @@
 export default function DeveloperCard({ dev }) {
-  const { name, role, avatar, bio, highlights, stack, socials } = dev
+  const { logo } = dev
 
   return (
     <section id="developer">
-      <p className="kicker">Meet the Developer</p>
-      <h2 className="section-title">One dev, the whole stack.</h2>
-      <p className="section-sub">
-        Gastoo was designed and built end to end — database, API, and every pixel of the interface.
-      </p>
+      <div className="developer-container flex items-center">
 
-      <div className="dev-section">
-        <div className="dev-glow" aria-hidden="true" />
-        <div className="dev-grid">
-          <div className="dev-portrait-wrap">
-            <div
-              className="dev-portrait"
-              style={avatar ? { backgroundImage: `url(${avatar})`, borderStyle: 'solid' } : undefined}
-            >
-              {/* IMAGE TEMPLATE: set developer.avatar in data/content.js to drop in a headshot */}
-              {!avatar && (
-                <>
-                  <i className="fa-solid fa-user-astronaut" />
-                  <span>Drop headshot here</span>
-                </>
-              )}
-              <div className="status-dot" title="Available for work" />
-            </div>
-            <h4 className="dev-name">{name}</h4>
-            <p className="dev-role">{role.toUpperCase()}</p>
-            <div className="dev-socials">
-              {socials.map((social) => (
-                <a key={social.label} href={social.href} aria-label={social.label}>
-                  <i className={social.icon} />
-                </a>
-              ))}
-            </div>
-          </div>
+        {/* LEFT */}
+        <div className="developer-intro flex-1">
+         <p className="text-[#45E7EE] text-xs font-extrabold tracking-[0.12em] uppercase mb-4">
+          BUILT BY EVOTRONE
+        </p>
 
-          <div className="dev-content">
-            <p className="kicker" style={{ color: 'var(--mint-300)' }}>
-              The person behind Gastoo
-            </p>
-            <h3>Built solo, front to back.</h3>
-            <p className="bio">{bio}</p>
+          <h2 className="section-title">
+            From idea to working product.
+          </h2>
 
-            <div className="dev-highlights">
-              {highlights.map((h) => (
-                <div className="dev-highlight" key={h.title}>
-                  <i className={h.icon} />
-                  <b>{h.title}</b>
-                  <span>{h.note}</span>
-                </div>
-              ))}
-            </div>
-
-            <p className="dev-stack-label">Tech Stack</p>
-            <div className="dev-stack">
-              {stack.map((tech) => (
-                <span className="pill" key={tech}>
-                  {tech}
-                </span>
-              ))}
-            </div>
-          </div>
+          <p className="section-sub">
+            Gastoo was designed and developed as a practical
+            expense-tracking experience built around the way
+            people actually manage everyday spending.
+          </p>
         </div>
+
+        {/* DIVIDER */}
+        <div className="developer-divider shrink-0" />
+
+        {/* RIGHT */}
+        <div className="developer-brand flex-1">
+
+          <div className="developer-brand-header flex items-center">
+            <img
+              src={logo}
+              alt="Evotrone logo"
+              className="developer-logo"
+            />
+
+            <div>
+              <span className="developer-label">
+                Developed by
+              </span>
+
+              <h3 className="developer-company">
+                EVOTRONE
+              </h3>
+            </div>
+          </div>
+
+          <p className="developer-description">
+            A team of developers and designers
+            building digital products that make life simpler.
+          </p>
+
+        </div>
+
       </div>
     </section>
   )
