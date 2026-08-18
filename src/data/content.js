@@ -15,7 +15,7 @@ export const hero = {
   titleAccent: 'one glance.',
   subtitle:
     "Gastoo turns your daily gastos into a habit you can actually see — budgets, savings goals, and a mascot who notices when you're doing great (or overdoing the milk tea).",
-  primaryCta: { label: 'See the app', href: '#showcase', icon: 'fa-solid fa-mobile-screen-button' },
+  primaryCta: { label: 'Open the app', href: 'https://gastoos.onrender.com', icon: 'fa-solid fa-mobile-screen-button' },
   secondaryCta: { label: 'Meet the developer', href: '#developer', icon: 'fa-solid fa-code' },
   // IMAGE TEMPLATE: set this to your Home Dashboard screenshot path, e.g. "/screenshots/home.png"
   phoneImage: '/gastoo_photos/hero-mockup.png',
@@ -157,7 +157,7 @@ export const pushNotification = {
     body: 'Small daily expenses add up fast — log everything, even ₱20 snacks.',
   },
   cta: {
-    label: 'Open Gastoo App',
+    label: 'Try Gastoo!',
     href: 'https://gastoos.onrender.com',
     icon: 'fa-solid fa-arrow-up-right-from-square',
   },
