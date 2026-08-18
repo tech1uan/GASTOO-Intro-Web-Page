@@ -23,9 +23,7 @@ export default function Hero({ data }) {
       </div>
 
       <div className="hero-visual">
-        <div className="float-mascot m1">
-          <i className="fa-solid fa-piggy-bank" />
-        </div>
+
         <div className="float-mascot m2">
           <i className="fa-solid fa-coins" />
         </div>
@@ -38,6 +36,10 @@ export default function Hero({ data }) {
               alt="Hero Mockup"
             />
           )}
+
+            <div className="float-mascot m1">
+          <i className="fa-solid fa-piggy-bank" />
+        </div>
         </div>
       </div>
     </header>
